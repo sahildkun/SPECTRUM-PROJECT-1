@@ -1,4 +1,4 @@
-A FRONTEND  TEAM BASED PROJECT 
+First Web Development Project  
 
 
 # Getting Started with Create React App
