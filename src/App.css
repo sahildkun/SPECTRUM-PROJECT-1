@@ -1,0 +1,24 @@
+/* .header{
+
+   
+    background-image: url("https://wallpapercave.com/wp/wp4318719.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-position:50%;
+}\Cc
+
+
+.text{
+
+    padding-top: 50%;
+} */
+
+#blue {
+    background: linear-gradient(180deg, #022c6e 0%, #3a62a1 100%);
+
+}
+#pallete {
+
+ background-color: rgb(8,21,72);
+}
