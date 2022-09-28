@@ -8,7 +8,7 @@ import Discover from './Discover';
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+      
      <BrowserRouter>
       <Routes>
        <Route path="/" element={<Hero/>}/>

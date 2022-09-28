@@ -6,9 +6,6 @@ function Navbar() {
   return (
     
 <>
-<nav class="bg-[#6d09b0] text-white p-4 text-center ">
-    Minnow is completely free to use! Create your account now and discover powerful features.
-</nav>
 
 
 
