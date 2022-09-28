@@ -1,8 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './App.css'
 import img from './images/InShot_20220927_211259576.png'
 function Hero() {
   return (
+    <>
+    <nav class="bg-[#6d09b0] text-white p-4 text-center ">
+    Minnow is completely free to use! Create your account now and discover powerful features.
+    </nav>
     <div id='blue'>
         <nav className='flex  pb-32 ' >
         
@@ -17,6 +22,10 @@ function Hero() {
         <div className='text-center text-[#8fa3bb] mb-5 text-lg'>
           Discover Minnow
         </div>
+        <Link to="/discover">
+        
+        </Link>
+        
 
         <div className='text-center text-white font-sans font-medium text-7xl antialiased mb-20'>
           <p>Your streaming services,</p>
@@ -66,6 +75,7 @@ function Hero() {
 
        
     </div>
+    </>
   )
 }
 
