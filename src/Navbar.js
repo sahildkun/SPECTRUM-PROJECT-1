@@ -6,8 +6,8 @@ function Navbar() {
   return (
     
 <>
-<nav class="bg-violet-700 text-white p-3 text-center ">
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, laboriosam.
+<nav class="bg-[#6d09b0] text-white p-4 text-center ">
+    Minnow is completely free to use! Create your account now and discover powerful features.
 </nav>
 
 
