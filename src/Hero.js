@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import img from './images/photo_2022-09-27_19-24-28.jpg'
+import img from './images/InShot_20220927_211259576.png'
 function Hero() {
   return (
     <div id='blue'>
