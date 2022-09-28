@@ -22,9 +22,7 @@ function Hero() {
         <div className='text-center text-[#8fa3bb] mb-5 text-lg'>
           Discover Minnow
         </div>
-        <Link to="/discover">
-        
-        </Link>
+       
         
 
         <div className='text-center text-white font-sans font-medium text-7xl antialiased mb-20'>
