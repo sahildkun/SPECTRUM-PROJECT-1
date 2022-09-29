@@ -22,3 +22,11 @@
 
  background-color: #090d3b;
 }
+#scroll {
+
+    overflow-y:scroll;
+    
+}
+#scroll::-webkit-scrollbar {
+ background: transparent;
+}

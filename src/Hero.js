@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './App.css'
-import img from './images/InShot_20220927_211259576.png'
+import img from './images/kB2cCOcJZMDlhY7E9UtJbbVCMgE.jpg'
 function Hero() {
   return (
     <>
@@ -13,7 +13,9 @@ function Hero() {
         
         <div className='mt-7 ml-12 text-white'><h1> Minnow</h1></div> 
         <div className='flex flex-auto justify-end mt-7 '>
+          <Link to="/stream">
         <button className='bg-[#4a4f9b] px-5 py-3 space-x-3 rounded-md text-white'>Sign in</button>
+        </Link>
         <Link to="/join">
         <button  className='mx-4 bg-[#2fddc6] px-5 py-3 space-x-3 rounded-md text-white'>Join Minnow</button>
         </Link>
@@ -51,9 +53,49 @@ function Hero() {
 
         <div className='mt-20  pt-96  mb-80  pb-96'>
           <div className='flex flex-auto justify-center'>
-          <div className='bg-[#090D3b] h-[40rem] w-[70rem] rounded  '>
-            <div className='bg-blue'>
+          <div className='bg-[#090D3b] h-[40rem] w-[70rem] rounded  ' id='scroll'>
+            
+            <div className='flex flex-auto'>
+              <button className='mt-2'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="100 -200 1000.000000 600.000000"><g transform="translate(0.000000,600.000000) scale(0.100000,-0.100000)"fill="#FFFFFF"><path fill="#FFFFFF" d="M4690 5124 c-381 -55 -659 -280 -774 -627 -55 -165 -56 -205 -56 -1497 0 -1303 1 -1334 60 -1506 91 -269 291 -473 552 -566 184 -65 132 -63 1528 -63 1396 0 1344 -2 1528 63 262 93 461 297 552 567 59 174 60 201 60 1505 0 1292 -1 1332 -56 1497 -94 282 -304 493 -580 582 -186 61 -194 61 -1517 60 -959 -1 -1221 -4 -1297 -15z m1290 -1109 c24 -8 288 -154 588 -323 473 -266 553 -315 607 -368 203 -198 202 -524 -3 -723 -62 -59 -124 -97 -615 -374 -593 -334 -621 -346 -721 -328 -30 5 -70 17 -90 25 -51 21 -124 92 -154 151 -27 50 -27 51 -32 332 -5 264 -6 283 -26 309 -39 52 -71 69 -132 69 -54 0 -67 -6 -263 -118 -230 -130 -266 -142 -344 -113 -53 21 -100 71 -114 123 -15 51 -14 516 0 567 27 96 106 146 219 138 14 -1 118 -55 230 -119 203 -116 206 -117 270 -118 52 0 71 5 96 22 60 43 64 64 64 340 0 275 6 317 59 390 80 111 237 162 361 118z"/><path d="M6634 3106 c-41 -18 -80 -71 -89 -118 -20 -108 90 -205 202 -177 56 15 108 71 118 128 8 50 -23 123 -67 155 -35 25 -122 31 -164 12z"/></g></svg>
+            </button>
+            <div className='bg-[#14183e] h-9 w-[60rem] m-6 rounded '>
+            </div>
+            <div className='h-9 w-[2rem] m-6'>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#FFFFFF" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0S96 57.3 96 128s57.3 128 128 128zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+            </div>
+            </div>
+            <div className='mx-20 mt-32'>
+            <div className='flex flex-auto space-x-8'>
+              <img src={img} alt=""  className='h-60 w-42'/>
+              <img src={img} alt=""  className='h-60 w-42'/>
+              <img src={img} alt=""  className='h-60 w-42'/>
+              <img src={img} alt=""  className='h-60 w-42'/>
+              <img src={img} alt=""  className='h-60 w-42'/>
 
+
+
+            </div>
+            <div className='flex flex-auto space-x-8'>
+              <img src={img} alt=""  className='h-60 w-42 opacity-'/>
+              <img src={img} alt=""  className='h-60 w-42'/>
+              <img src={img} alt=""  className='h-60 w-42'/>
+              <img src={img} alt=""  className='h-60 w-42'/>
+              <img src={img} alt=""  className='h-60 w-42'/>
+
+
+
+            </div>
+            <div className='flex flex-auto space-x-8'>
+              <img src={img} alt=""  className='h-60 w-42 opacity-'/>
+              <img src={img} alt=""  className='h-60 w-42'/>
+              <img src={img} alt=""  className='h-60 w-42'/>
+              <img src={img} alt=""  className='h-60 w-42'/>
+              <img src={img} alt=""  className='h-60 w-42'/>
+
+
+
+            </div>
             </div>
            </div>
           </div>

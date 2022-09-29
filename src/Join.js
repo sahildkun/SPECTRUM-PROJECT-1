@@ -1,6 +1,12 @@
-import React from 'react'
-
+import React,{useState} from 'react'
+import {questions}  from "./api";
+import "./accordion.css";
+import Myaccordion from './Myaccordion';
 function Join() {
+  const [data, setData] = useState(questions);
+
+
+
   return (
     <div className=' ' id='pallete'>
 
@@ -25,9 +31,29 @@ function Join() {
           <p className='text-lg'>and tv shows(all mobile, TV and tablet devices)</p>
           </div>
 
-          <div className='pb-96'>
+          <div className='mt-96'>
+          {/* accordion */}
 
-            accordions
+        <div className='text-white'>
+   
+     <section className='bg-black w-lg  '>
+      <h1 className='text-white text-center'>accordion</h1>
+    {
+            data.map((curElem) => {
+            const {id} = curElem;
+             return <Myaccordion key={id}{...curElem} /> 
+             })
+
+            }
+
+</section>
+        </div>
+
+
+
+
+
+            
           </div>
         
     </div>
