@@ -30,3 +30,8 @@
 #scroll::-webkit-scrollbar {
  background: transparent;
 }
+/* @media only screen and (max-width: 600px) {
+    #scroll {
+        overflow-x: scroll;
+    }
+  } */
