@@ -8,18 +8,19 @@ function Myaccordion({question, answer}) {
         
        <div className='flex flex-auto '>
         <h3>{question}</h3>
-        <p className=' flex flex-auto justify-end' onClick={() => setShow(!show)}>{ show?  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M18 12H6" />
-</svg>
-:<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
-</svg>}
+        <p className=' flex flex-auto justify-end' onClick={() => setShow(!show)}>{ show?  
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15"><path fill='#6a71a1' d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
+:
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15"><path fill="#1aa09a" d="M256 80V48H192V80 224H48 16v64H48 192V432v32h64V432 288H400h32V224H400 256V80z"/></svg>
+
+}
 
 </p>
        </div>
        <div>
         
-        {show && <p>{answer}</p>}</div>
+        {show && <p className='text-[#546e8e] p-4'>{answer}</p>}</div>
         </div>
    
 

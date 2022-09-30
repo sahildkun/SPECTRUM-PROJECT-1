@@ -35,3 +35,7 @@
         overflow-x: scroll;
     }
   } */
+  #grad2 {
+
+    background: linear-gradient(180deg, #0a1375 0%, #555582 100%);
+}
