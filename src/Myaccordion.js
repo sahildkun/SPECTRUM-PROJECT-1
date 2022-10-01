@@ -4,7 +4,7 @@ function Myaccordion({question, answer}) {
     const [show, setShow] = useState(false)
   return (
     
-    <div className='border-b-4 border-[#151d42] pb-16'>
+    <div className='border-b-4 border-[#151d42] pb-14'>
         
        <div className='flex flex-auto '>
         <div className=''>
@@ -23,7 +23,7 @@ function Myaccordion({question, answer}) {
        </div>
        <div>
         
-        {show && <p className='text-[#546e8e] p-4 mt-5'>{answer}</p>}</div>
+        {show && <p className='text-[#546e8e] pl-1 pr-72 mt-5 ml=0 w-[30 rem]'>{answer}</p>}</div>
         </div>
    
 
