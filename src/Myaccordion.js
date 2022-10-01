@@ -4,10 +4,13 @@ function Myaccordion({question, answer}) {
     const [show, setShow] = useState(false)
   return (
     
-    <div>
+    <div className='border-b-4 border-[#151d42] pb-16'>
         
        <div className='flex flex-auto '>
-        <h3>{question}</h3>
+        <div className=''>
+        <h3 className=''>{question}</h3>
+        </div>
+       
         <p className=' flex flex-auto justify-end' onClick={() => setShow(!show)}>{ show?  
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15"><path fill='#6a71a1' d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
 :
@@ -20,7 +23,7 @@ function Myaccordion({question, answer}) {
        </div>
        <div>
         
-        {show && <p className='text-[#546e8e] p-4'>{answer}</p>}</div>
+        {show && <p className='text-[#546e8e] p-4 mt-5'>{answer}</p>}</div>
         </div>
    
 

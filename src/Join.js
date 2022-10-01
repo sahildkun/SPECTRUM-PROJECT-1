@@ -36,7 +36,7 @@ function Join() {
           </div>
           {/* accordion */}
 
-        <div className='text-white'>
+        <div className='text-white '>
    
      <section className='bg-[#091138] w-lg p-20 space-y-14 '>
       {/* <h1 className='text-white text-center'>accordion</h1> */}
