@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import {questions}  from "./api";
+import { Link } from 'react-router-dom'
 import "./accordion.css";
 import "./App.css"
 import Myaccordion from './Myaccordion';
@@ -56,7 +57,10 @@ function Join() {
         <div className='pt-12 bg-[#091138] pb-20'>
 
           <div  className='flex flex-row  bg-[#091138]  p-20  pb-10'>
-          <img src={logo} className='lg:h-16 w-36'/>
+            <Link to="/">
+            <img src={logo} className='lg:h-16 w-36'/>
+            </Link>
+
             <div className='flex flex-auto justify-end '>
           
             <button className='bg-[#6932c2] text-white font-sans p-4 px-9 tracking-wide  rounded-md text-center hover:bg-[#a757bb]'>Discover    Minnow  Insights</button>
