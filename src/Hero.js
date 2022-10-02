@@ -19,6 +19,11 @@ import hbo from './images/hbo.png'
 import brit from './images/britbox.png'
 import bbc from './images/bbc.png'
 import hulu from './images/hulu.png'
+import dead from './images/deadpool.jpg'
+import special from './images/special.jpg'
+import suits from './images/suits.jpg'
+import simon from './images/bridgerton.jpg'
+import sahil from './images/sahil fav.jpg'
 function Hero() {
   return (
     <>
@@ -105,7 +110,7 @@ function Hero() {
               <img src={img2} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all hover:scale-110'/>
               <img src={img3} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all hover:scale-110'/>
               <img src={img4} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all hover:scale-110'/>
-              <img src={img} alt=""  className='h-60 w-44 transform transition-all hover:scale-110'/>
+              <img src={img} alt=""  className='h-60 w-44  rounded-md transform transition-all hover:scale-110'/>
 
 
 
@@ -120,17 +125,14 @@ function Hero() {
 
 
             </div>
-            <div className='flex flex-auto space-x-11'>
-              <img src={img2} alt=""  className='h-60 w-44 rounded-md transform transition-all hover:scale-110'/>
-              <img src={img1} alt=""  className='h-60 w-44 rounded-md transform transition-all hover:scale-110'/>
-              <img src={img3} alt=""  className='h-60 w-44 rounded-md transform transition-all hover:scale-110'/>
-              <img src={img4} alt=""  className='h-60 w-44 rounded-md transform transition-all hover:scale-110'/>
-              <img src={img7} alt=""  className='h-60 w-44 rounded-md transform transition-all hover:scale-110'/>
+            <div className='flex flex-auto space-x-11 pb-4'>
+              <img src={suits} alt=""  className='h-60 w-44 rounded-md transform transition-all hover:scale-110'/>
+              <img src={simon} alt=""  className='h-60 w-44 rounded-md transform transition-all hover:scale-110'/>
+              <img src={special} alt=""  className='h-60 w-44 rounded-md transform transition-all hover:scale-110'/>
+              <img src={dead} alt=""  className='h-60 w-44 rounded-md transform transition-all hover:scale-110'/>
+              <img src={sahil} alt=""  className='h-60 w-40 rounded-md transform transition-all hover:scale-110'/>
 
               
-
-
-
             </div>
            
             </div>
