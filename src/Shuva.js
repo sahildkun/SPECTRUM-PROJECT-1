@@ -1,5 +1,7 @@
 import React from 'react'
 import './shuva.css'
+import img from './images/photo_2022-10-02_18-23-09.jpg'
+import img1 from './images/photo_2022-10-02_18-23-39.jpg'
 function Shuva() {
   return (
     <body bgcolor="#0e1e5f">
@@ -24,25 +26,26 @@ function Shuva() {
             <div>
               <p class="text-blue-400 py-4 w-9/12 font-thin text-xs pt-10">Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK, Ireland, India, Brazil, Mexico and Italy</p>
             </div></div>
-            <div class="lg:mt-20  lg:pt-10  mb-80  pb-96 pr-20 ">
+            {/* spacing  */}
+            <div class="lg:mt-20  lg:pt-10  mb-80   pr-20 ">
               <div class="flex flex-auto justify-center">
-              <div class="lg:bg-[#090D3b] lg:h-[30rem] lg:w-[30rem] rounded " id="scroll2">
+              <div class="lg:bg-[#090D3b] lg:h-[30rem] lg:w-[30rem] rounded " id="">
                 
                  
-                <div class="mx-5 mt-5">
-                  <div class="flex justify-end pb-2">
-                    <button class="bg-white px-2 py-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15"><path fill="#989898" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0S96 57.3 96 128s57.3 128 128 128zM448 512L384 304H64L0 512H448z"/></svg></button>
-                  </div> 
-                  {/* userlogo */}
-                <div class="flex justify-center gap-x-2">
-                  <img src="InShot_20220929_102744381 (2).jpg" alt=""  class="lg:h-[10rem] lg:w-[20rem] "/>
-                  <img src="c290281c-442d-4890-8723-762a90e6dc2d-spider-man-into-the-spider-verse-dom-spiderverse_nap1751011_lm_v2.jpeg.jpg" alt=""  class="lg:h-[10rem] lg:w-[20rem] "/>
-                  <img src="images.jpeg-12 (1).jpg" alt=""  class="lg:h-[10rem] lg:w-[10rem] "/></div>
-                 <div class="flex justify-center gap-x-2 pt-2">
-                  <img src="InShot_20220929_102843689.jpg" alt=""  class="lg:h-[15rem] lg:w-[20rem]"/>
-                  <img src="InShot_20220929_102904919.jpg" alt=""  class="lg:h-[15rem] lg:w-[20rem]"/>
-                  <img src="#" alt=""  class="h-60 w-42"/>
-                </div>  
+                <div class="mx-5 mt-5" >
+                 <div className='bg-[#14183e] h-5 w-[23rem]'></div>
+                <div id='scroll2'>
+                 <div className='mt-5 flex flex-auto'>
+                 <img src={img} alt=""  className='h-[12em] w-[20rem]'/>\
+                 <img src={img1} alt=""  className='h-[12em] w-[20rem]'/>
+
+                 </div>
+                 <div className='mt-5 flex flex-auto'>
+                 <img src={img} alt=""  className='h-[12em] w-[20rem]'/>\
+                 <img src={img1} alt=""  className='h-[12em] w-[20rem]'/>
+
+                 </div>
+                 </div>
             
               
                 </div>
@@ -51,6 +54,7 @@ function Shuva() {
                
             </div>
   </div>
+  
 
 <div class="grid grid-cols-2 gap-96 pl-20 ">
 
@@ -94,7 +98,9 @@ function Shuva() {
         <p class="text-blue-400 py-4 w-9/12 font-thin text-xs pt-10">Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK, Ireland, India, Brazil, Mexico and Italy</p>
       </div></div>
 </div>
+<div className='pt-80'>
 
+</div>
 <div class="flex justify-around ">
   <div class="pb-44 pl-10">
       <div class="buttons">
