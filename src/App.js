@@ -14,9 +14,9 @@ function App() {
      <BrowserRouter>
       <Routes>
        <Route path="/" element={<Hero/>}/>
-       <Route path="/discover" element={<Discover/>}/>
+       <Route path="/discover" element={<Shuva/>}/>
        <Route path="/join" element={<Join/>}/>
-       <Route path="/stream" element={<Shuva/>}/>
+       <Route path="/stream" element={<Discover/>}/>
 
 
         
