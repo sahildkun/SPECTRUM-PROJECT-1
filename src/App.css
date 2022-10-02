@@ -35,7 +35,10 @@
         overflow-x: scroll;
     }
   } */
-  #grad2 {
+    #grad2 {
 
-    background: linear-gradient(180deg, #0a1375 0%, #523a79 50%);
+    background: linear-gradient(180deg, #0a1375 0%, #725dac 50%);
+}
+    #grad3{
+    background: radial-gradient(circle at 50% 100%, #adffcf, #0a1375);
 }
