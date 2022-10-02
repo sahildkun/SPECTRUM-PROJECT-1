@@ -1,0 +1,7 @@
+#scroll2{
+        overflow-x: scroll;
+      }
+      #scroll2::-webkit-scrollbar{
+        background: transparent;
+
+      }
