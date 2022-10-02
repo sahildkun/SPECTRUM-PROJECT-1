@@ -5,6 +5,16 @@ import "./accordion.css";
 import "./App.css"
 import Myaccordion from './Myaccordion';
 import logo from './images/Minnow.png'
+import img from './images/Watchmen.jpg'
+import img1 from './images/Thor.jpg'
+import img2 from './images/Criminal Justice.jpg'
+import img3 from './images/Joker.jpg'
+import img4 from './images/mandalorian.jpeg'
+import img5 from './images/Money Heist.jpg'
+import img6 from './images/Morning Wars.jpg'
+import img7 from './images/Queens Gambit.jpg'
+import img8 from './images/rise-of-skywalker-poster-d23.jpg'
+import img9 from './images/Spider-Man_Into_the_Spider-Verse_poster_003.jpg'
 function Join() {
   const [data, setData] = useState(questions);
 
@@ -34,19 +44,30 @@ function Join() {
           <p className='text-md'>and tv shows(all mobile, TV and tablet devices)</p>
           </div>
           
-          <div className='mt-48'>
+          <div className='mt-36 w-lg p-auto'>
+          <div className='flex flex-auto lg:space-x-5 place-content-center mt-32'>
+              <img src={img5} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
+              <img src={img2} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
+              <img src={img6} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
+              <img src={img3} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
+              <img src={img7} alt=""  className='h-60 w-44  rounded-md transform transition-all opacity-30'/>
+              <img src={img9} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
+              <img src={img} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
+              <img src={img4} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
+              <img src={img8} alt=""  className='h-60 w-44  rounded-md transform transition-all hover:scale-110 opacity-25'/>
+              
+            </div>
           </div>
           {/* accordion */}
-
-        <div className='text-white '>
-   
-     <section className='bg-[#0c143b] w-lg p-14 space-y-10 '>
-      {/* <h1 className='text-white text-center'>accordion</h1> */}
-    {
-            data.map((curElem) => {
-            const {id} = curElem;
-             return <Myaccordion key={id}{...curElem} /> 
-             })
+          <div className='text-white'>
+    
+            <section className='bg-[#0c143b] w-lg p-14 space-y-10 '>
+              {/* <h1 className='text-white text-center'>accordion</h1> */}
+            {
+                    data.map((curElem) => {
+                    const {id} = curElem;
+                    return <Myaccordion key={id}{...curElem} /> 
+                    })
 
             }
 
@@ -57,10 +78,7 @@ function Join() {
         <div className='pt-12 bg-[#091138] pb-20'>
 
           <div  className='flex flex-row  bg-[#091138]  p-20  pb-10'>
-            <Link to="/">
-            <img src={logo} className='lg:h-16 w-36'/>
-            </Link>
-
+            <img src={logo} className='lg:h-16 w-40'/>
             <div className='flex flex-auto justify-end '>
           
             <button className='bg-[#6932c2] text-white font-sans p-4 px-9 tracking-wide  rounded-md text-center hover:bg-[#a757bb]'>Discover    Minnow  Insights</button>
