@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './shuva.css'
 function Shuva() {
   return (
     <body bgcolor="#0e1e5f">
