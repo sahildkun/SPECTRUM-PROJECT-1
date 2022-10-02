@@ -1,49 +1,57 @@
 import React from 'react'
 import './shuva.css'
-import img from './images/photo_2022-10-02_18-23-09.jpg'
-import img1 from './images/photo_2022-10-02_18-23-39.jpg'
+import spd from './images/spd.jpg'
+import sonic from './images/sonic.jpg'
+import ironman from './images/ironman.jpg'
+import stranger from './images/stranger.jpg'
+import got from './images/got.jpg'
+import frozen from './images/frozen.jpg'
+import marvel from './images/marvel.jpg'
+import christmas from './images/christmas.png'
+import tale from './images/tale.jpg'
 function Shuva() {
   return (
-    <body bgcolor="#0e1e5f">
+    <body bgcolor="#18145c">
   <main>
-    <div class="flex justify-around pt-20">
+    <div class="flex justify-around pt-20 pb-10">
       <div class="py-16 pl-20">
           <div class="buttons">
               <button class="bg-yellow-500 px-5 py-5 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="20"><path d="M288 32C129.6 32 30 181.3 0 256c30 74.7 129.6 224 288 224s258-149.3 288-224C546 181.3 446.4 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zm-240 0c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-6.4 0-12.7 .6-18.8 1.8L288 256l-94.2-18.8c-1.2 6.1-1.8 12.4-1.8 18.8z"/></svg></button>
           </div>
-          <div class="text-5xl text-white py-10">
+          <div class="text-5xl text-white font-sans font-medium py-10">
           <b>Stream your favourites titles</b>
           </div>
           <div>
-              <p class="text-blue-400 py-4 w-9/12">One-click streaming of the most popular movies and series across Netflix, Prime Video, HBO Max, Disney+, Peacock,and others all in one place</p>
+              <p class="text-[#b0aae0] py-4 w-9/12">One-click streaming of the most popular movies and series across Netflix, Prime Video, HBO Max, Disney+, Peacock,and others all in one place</p>
           </div>
           <div class="pr-96">
               <div class="border-b-2 border-blue-900 pb-2 pt-10">
-                  <button class="bg-cyan-500 px-2 py-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10"><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg></button><b class="text-white pl-4">Filter by only the services you pay for</b></div>
-              <div class=" border-b-2 border-blue-900 pb-2 pt-2"><button class="bg-cyan-500 px-2 py-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10"><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg></button><b  class="text-white pl-4">No more switching between apps</b></div>
-              <div class="pt-2"><button class="bg-cyan-500 px-2 py-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10"><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg></button><b class="text-white pl-6">Share what you are watching with friends</b></div>
+                  <button class="bg-cyan-500 px-2 py-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10"><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg></button><b class="text-white pl-4 font-sans">Filter by only the services you pay for</b></div>
+              <div class=" border-b-2 border-blue-900 pb-2 pt-2"><button class="bg-cyan-500 px-2 py-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10"><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg></button><b  class="font-sans text-white pl-4">No more switching between apps</b></div>
+              <div class="pt-2"><button class="bg-cyan-500 px-2 py-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10"><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg></button><b class="text-white pl-4 font-sans">Share what you are watching with friends</b></div>
           </div>
             <div>
-              <p class="text-blue-400 py-4 w-9/12 font-thin text-xs pt-10">Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK, Ireland, India, Brazil, Mexico and Italy</p>
+              <p class="text-[#b0aae0] py-4 w-9/12 font-thin text-xs pt-10">Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK, Ireland, India, Brazil, Mexico and Italy</p>
             </div></div>
             {/* spacing  */}
             <div class="lg:mt-20  lg:pt-10  mb-80   pr-20 ">
               <div class="flex flex-auto justify-center">
-              <div class="lg:bg-[#090D3b] lg:h-[30rem] lg:w-[30rem] rounded " id="">
+              <div class="lg:bg-[#353b79] lg:h-[30rem] lg:w-[50rem] rounded " id="">
                 
                  
                 <div class="mx-5 mt-5" >
-                 <div className='bg-[#14183e] h-5 w-[23rem]'></div>
+                 <div className='bg-[#261b66] h-5 w-[46rem] ml-4'></div>
                 <div id='scroll2'>
-                 <div className='mt-5 flex flex-auto'>
-                 <img src={img} alt=""  className='h-[12em] w-[20rem]'/>\
-                 <img src={img1} alt=""  className='h-[12em] w-[20rem]'/>
-
+                 <div className='mt-5 px-2 space-x-5 flex flex-auto'>
+                  <img src={sonic} alt=""  class="lg:h-[12rem] lg:w-[25rem] "/>
+                  <img src={spd} alt=""  class="lg:h-[12rem] lg:w-[23rem] "/>
+                  <img src={stranger} alt=""  class="lg:h-[12rem] lg:w-[29rem] "/>
+                    
                  </div>
-                 <div className='mt-5 flex flex-auto'>
-                 <img src={img} alt=""  className='h-[12em] w-[20rem]'/>\
-                 <img src={img1} alt=""  className='h-[12em] w-[20rem]'/>
-
+                 <div className='mt-5 px-2 space-x-4 flex flex-auto'>
+                 <img src={frozen} alt=""  class="lg:h-[12rem] lg:w-[30rem]"/>
+                  <img src={ironman} alt=""  class="lg:h-[12rem] lg:w-[30rem]"/>
+                  <img src={got} alt=""  class="lg:h-[12rem] lg:w-[30rem]"/>
                  </div>
                  </div>
             
@@ -54,35 +62,33 @@ function Shuva() {
                
             </div>
   </div>
-  
+<div class="grid grid-cols-2 gap-[30rem] p-36">
 
-<div class="grid grid-cols-2 gap-96 pl-20 ">
-
-  <div class="grid grid-cols-1 gap-3 ">
+  <div class="grid grid-cols-1 gap-3">
 
     <div class="bg-gradient-to-b from-red-500 to-transparent rounded-lg shadow-xl">
-      <div class="pt-10 pl-10 text-xl text-white">16 titles</div>
-       <div class="pt-20 pb-10 text-3xl text-white font-medium pl-10">Marvel Universe</div>
+      <div>
+      <img src={marvel} className='opacity-20 h-64 w-full'/><div class="pt-10 text-3xl text-white font-medium pl-10">Marvel Universe</div></div>
       </div>
 
-    <div class="bg-gradient-to-b from-blue-400 to-transparent rounded-lg shadow-xl ">
-      <div class="pt-10 pl-10 text-xl text-white">24 titles</div>
-      <div class="pt-20 pb-10 text-3xl text-white font-medium pl-10">Christmas Movies</div>
+    <div  class="bg-gradient-to-b from-blue-400 to-transparent rounded-lg shadow-xl ">
+      <img src={christmas} className='opacity-20 h-64 w-full'/>
+      <div class="pt-10 text-3xl text-white font-medium pl-10">Christmas Movies</div>
     </div>
 
     <div class="bg-gradient-to-b from-green-500 to-transparent rounded-lg shadow-xl ">
-      <div class="pt-10 pl-10 text-xl text-white">6 titles</div>
-      <div class="pt-20 pb-10 text-3xl text-white font-medium pl-10">Tales of Middle-Earth</div>
+    <img src={tale} className='opacity-20 h-64 w-full'/>
+      <div class="pt-10 text-3xl text-white font-medium pl-10">Tales of Middle-Earth</div>
     </div>
 
   </div>
-  <div class="pr-12"> 
+  <div class="pr-20"> 
   <div class="buttons">
     <button class="bg-purple-700 px-5 py-5 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>
     </button>
    
     </div>
-    <div class="text-4xl text-white py-10 pr-16">
+    <div class="text-5xl text-white py-10">
       <b>Create and share playlists</b>
       </div>
       <div>
