@@ -15,6 +15,10 @@ import imgs from './images/profile.png'
 import imgapple from './images/InShot_20220927_211259576.png'
 import logo from './images/Minnow.png'
 import logos from './images/Minnow logo.png'
+import hbo from './images/hbo.png'
+import brit from './images/britbox.png'
+import bbc from './images/bbc.png'
+import hulu from './images/hulu.png'
 function Hero() {
   return (
     <>
@@ -36,7 +40,7 @@ function Hero() {
         sm:mx-0.5 hover:from-pink-500 hover:to-yellow-500 drop-shadow-md'>Sign in</button>
         </Link>
         <Link to="/join">
-        <button  className='lg:mx-4 bg-gradient-to-br from-[#2fddc6] to-sky-400 lg:px-5 lg:py-3 lg:space-x-3 rounded-md text-white sm:px-2  sm:py-1 sm:text-sm
+        <button  className='lg:mx-4 bg-gradient-to-br from-[#2fddc6] to-[#2fddc6] lg:px-5 lg:py-3 lg:space-x-3 rounded-md text-white sm:px-2  sm:py-1 sm:text-sm
         sm:mx-2 hover:from-pink-500 hover:to-yellow-500 drop-shadow-md'>Join Minnow</button>
         </Link>
         
@@ -59,7 +63,7 @@ function Hero() {
           <p>Meet Minnow, the free app that combines all the most popular streaming services for easy search</p>
           <p>and discovery anywhere you watch movies and shows.</p>
           <Link to="/discover">
-          <button className='bg-gradient-to-r from-[#6932c2] to-[#ca77f0] text-white p-3 space-x-3 rounded-md text-center mt-8 mb-8 drop-shadow-md hover:from-pink-500 hover:to-yellow-500'>Discover Minnow</button>
+          <button className='bg-gradient-to-r from-[#6932c2] to-[#9d42c7] text-white p-3 space-x-3 rounded-md text-center mt-8 mb-8 drop-shadow-md hover:from-[#e97ada] hover:to-[#b839b1]'>Discover Minnow</button>
           
           </Link>
           
@@ -71,7 +75,7 @@ function Hero() {
           {/* <p>TV DISPLAY IMAGE</p> */}
         <div className='flex flex-auto justify-center mt-36 mb-36'>
           <div className="relative">
-            <div className="lg:h-[40rem] lg:w-[71rem] absolute -inset-0.5 bg-[#1bdbd2] rounded-lg blur-3xl opacity-50"></div>
+            <div className="lg:h-[41rem] lg:w-[72rem] absolute -inset-0.5 bg-gradient-to-br from-[#f806d0] to-[#18f1f8] rounded-lg blur-3xl opacity-100"></div>
           </div> 
           <div className='relative lg:h-[40rem] lg:w-[71rem]'>
           <div className='flex flex-auto justify-center'>
@@ -143,20 +147,20 @@ function Hero() {
          <footer className='p-auto text-center ' id='pallete'>
           <div className='flex flex-auto lg:space-x-14 place-content-center mt-32 mb-5 '>
           {/* <img alt="File:Apple TV Plus Logo.svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Apple_TV_Plus_Logo.svg/512px-Apple_TV_Plus_Logo.svg.png?20200320181329" decoding="async" width="62" height="40" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Apple_TV_Plus_Logo.svg/768px-Apple_TV_Plus_Logo.svg.png?20200320181329 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Apple_TV_Plus_Logo.svg/1024px-Apple_TV_Plus_Logo.svg.png?20200320181329 2x" data-file-width="512" data-file-height="194"></img> */}
-          <img src={imgapple} alt=""  className='h-32 w-32'/>
-          <img src={imgapple} alt=""  className='h-32 w-32'/>
-          <img src={imgapple} alt=""  className='h-32 w-32'/>
-          <img src={imgapple} alt=""  className='h-32 w-32'/>
-          <img src={imgapple} alt=""  className='h-32 w-32'/>
-          <img src={imgapple} alt=""  className='h-32 w-32'/>
-          <img src={imgapple} alt=""  className='h-32 w-32'/>
+          <img src={imgapple} alt=""  className='h-40 w-40'/>
+          <svg xmlns="http://www.w3.org/2000/svg" height="150" viewBox=".238 .034 919.406 248.488" width="120"><path d="m870.46 118.314 49.184 130.208c-14.495-2.07-28.982-4.663-43.733-6.999l-27.707-71.945-28.468 66.006c-13.973-2.336-27.698-3.114-41.672-4.928l49.955-113.89-45.309-116.732h41.937l25.362 65.22 27.185-65.22h42.442zm-120.864-118.28h-38.052v225.71c12.425.779 25.362 1.292 38.052 2.841zm-70.927 223.118c-34.68-2.328-69.37-4.39-104.829-5.177v-217.94h38.823v181.188c22.264.514 44.52 2.32 66.006 3.355zm-146.252-134.847v38.822h-53.06v88.263h-38.3v-215.356h108.713v38.822h-70.405v49.45h53.06zm-156.597-49.449v178.605c-12.946 0-26.14 0-38.83.514v-179.119h-40.122v-38.822h119.322v38.822zm-120.88 90.334c-17.08 0-37.274 0-51.769.787v57.715c22.778-1.557 45.556-3.363 68.59-4.141v37.273l-107.412 8.548v-229.338h107.405v38.822h-68.584v52.29c15.017 0 38.052-.778 51.768-.778v38.83zm-215.109-21.743v135.633c-13.965 1.557-26.398 3.371-39.593 5.442v-248.488h37.017l50.469 141.076v-141.076h38.83v232.436c-13.717 2.336-27.698 3.114-42.45 5.177z" fill="#FFFFFF"/></svg>
+          <img src={brit} alt=""  className='h-36 w-36'/>
+          <img src={hbo} alt=""  className='h-36 w-40'/>
+          <img src={bbc} alt=""  className='h-36 w-40'/>
+          <img src={hulu} alt=""  className='h-7 w-28 mt-14'/>
+         
           
           
           
           
           
           </div>
-          <div className=' text-center  text-[#8fa3bb]  m text-sm'>
+          <div className=' text-center  text-[#8fa3bb]  pb-5 text-sm'>
           <p>Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK,</p>
           <p>Ireland, India, Brazil, Mexico and Italy.</p>
           </div>
