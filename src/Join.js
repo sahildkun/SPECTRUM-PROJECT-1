@@ -45,18 +45,7 @@ function Join() {
           </div>
           
           <div className='mt-36 w-lg p-auto'>
-          <div className='flex flex-auto lg:space-x-5 place-content-center mt-32'>
-              <img src={img5} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
-              <img src={img2} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
-              <img src={img6} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
-              <img src={img3} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
-              <img src={img7} alt=""  className='h-60 w-44  rounded-md transform transition-all opacity-30'/>
-              <img src={img9} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
-              <img src={img} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
-              <img src={img4} alt=""  className='h-60 w-44 hidden md:table-cell rounded-md transform transition-all opacity-25'/>
-              <img src={img8} alt=""  className='h-60 w-44  rounded-md transform transition-all hover:scale-110 opacity-25'/>
-              
-            </div>
+          
           </div>
           {/* accordion */}
           <div className='text-white'>
