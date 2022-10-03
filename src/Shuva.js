@@ -76,10 +76,10 @@ function Shuva() {
    {/* avengesr */}
     <div className='group relative'>
     <div>
-    <img src={marvel} className=' h-52 w-full object-fill rounded-lg  '/>
+    <img src={marvel} className=' lg:h-52 lg:w-[100rem] object-fill rounded-lg  '/>
     </div>
     <div
-            class="absolute top-0 left-0 w-full h-0  items-center bg-[#d84642] opacity-0 group-hover:h-full group-hover:opacity-80 duration-500">
+            class="absolute top-0 left-0 w-[33rem] h-0  items-center bg-[#d84642] opacity-0 group-hover:h-full group-hover:opacity-80 duration-500">
 
             <h1 class="text-lg text-white font-sans p-5 ">16 Titles</h1>
             <h2 class=" text-white text-2xl font-semibold py-20 pl-5">Marvel Universe</h2>
@@ -89,10 +89,10 @@ function Shuva() {
     {/* christmas */}
     <div className='group relative'>
     <div>
-    <img src={christmas} className=' h-52 w-full object-fill rounded-lg '/>
+    <img src={christmas} className=' lg:h-52 lg:w-[100rem] object-fill rounded-lg '/>
     </div>
     <div
-            class="absolute top-0 left-0 w-full h-0  items-center bg-[#74bbd8] opacity-0 group-hover:h-full group-hover:opacity-80 duration-500">
+            class="absolute top-0 left-0 w-[33rem] h-0  items-center bg-[#74bbd8] opacity-0 group-hover:h-full group-hover:opacity-80 duration-500">
 
             <h1 class="text-lg text-white font-sans p-5 ">24 Titles</h1>
             <h2 class=" text-white text-2xl font-semibold py-20 pl-5">Christmas Movies</h2>
@@ -102,10 +102,10 @@ function Shuva() {
     {/* hulk monstaer */}
     <div className='group relative'>
     <div>
-    <img src={tale} className=' h-[14rem] w-full object-fill rounded-lg '/>
+    <img src={tale} className=' lg:h-[14rem] lg:w-[100rem] object-fill rounded-lg '/>
     </div>
     <div
-            class="absolute top-0 left-0 w-full h-full items-center bg-[#28594f] opacity-0 group-hover:h-full group-hover:opacity-80 duration-500">
+            class="absolute top-0 left-0 lg:w-[33rem]   h-full items-center bg-[#28594f] opacity-0 group-hover:h-full group-hover:opacity-80 duration-500">
 
             <h1 class="text-lg text-white font-sans p-5 ">6 Titles</h1>
             <h2 class=" text-white text-2xl font-semibold py-24 pl-5">Tales of Middle-Earth</h2>
