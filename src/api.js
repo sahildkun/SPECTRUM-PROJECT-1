@@ -2,7 +2,7 @@ export const questions = [
     {
         id: 1,
         question: 'What is Minnow?',
-        answer:'Minnow is an application that combines universal search with a social playlist function: Think Spotify for movies and TV, or Letterboxd if Letterboxd included more TV titles and was also able to send you directly to the correct streaming platform to watch then and there.'
+        answer:'Minnow gathers data from every publicly available data source on the internet and present it to you in one clean simple-to-navigate interface wherever you love watching content.'
     },
     {
         id: 2,
@@ -12,7 +12,7 @@ export const questions = [
     {
         id: 3,
         question: 'When will the web and Roku apps done?',
-        answer:'We gather data from every publicly available data source on the internet and present it to you in one clean simple-to-navigate interface wherever you love watching content.'
+        answer:'We will be notifying you soon!'
     },
     {
         id: 4,
