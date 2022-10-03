@@ -98,7 +98,7 @@ function Shuva() {
     <b>Create and share playlists</b>
     </div>
     <div>
-      <p class="text-blue-400 py-4 w-9/12">Minnow is built around community, and we want you to help us grow it.Browse playlists built by friends,critics and brands you trust for recommendations</p>
+      <p class="text-[#b0aae0] py-4 w-9/12">Minnow is built around community, and we want you to help us grow it.Browse playlists built by friends,critics and brands you trust for recommendations</p>
   </div>
   <div class="pr-20">
       <div class="border-b-2 border-blue-900 pb-2 pt-10">
@@ -107,7 +107,7 @@ function Shuva() {
       <div class="pt-2"><button class="bg-cyan-500 px-2 py-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10"><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg></button><b class="text-white pl-4">Share playlists with friends</b></div>
   </div>
     <div>
-      <p class="text-blue-400 py-4 w-9/12 font-thin text-xs pt-10">Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK, Ireland, India, Brazil, Mexico and Italy</p>
+      <p class="text-[#b0aae0] py-4 w-9/12 font-thin text-xs pt-10">Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK, Ireland, India, Brazil, Mexico and Italy</p>
     </div></div>
 </div>
 <div className='pt-72'>
