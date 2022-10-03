@@ -22,7 +22,7 @@ function Shuva() {
     <body bgcolor="#18145c">
   <main>
     <div class="flex justify-around pt-20 pb-10">
-      <div class="py-16 pl-20">
+      <div class="py-16 pl-20 pr-30">
           <div class="buttons">
               <button class="bg-yellow-500 px-5 py-5 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="20"><path d="M288 32C129.6 32 30 181.3 0 256c30 74.7 129.6 224 288 224s258-149.3 288-224C546 181.3 446.4 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zm-240 0c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-6.4 0-12.7 .6-18.8 1.8L288 256l-94.2-18.8c-1.2 6.1-1.8 12.4-1.8 18.8z"/></svg></button>
           </div>
@@ -44,11 +44,11 @@ function Shuva() {
             {/* spacing  */}
             <div class="lg:mt-20  lg:pt-10  mb-80   pr-20 ">
               <div class="flex flex-auto justify-center">
-              <div class="lg:bg-[#353b79] lg:h-[30rem] lg:w-[50rem] rounded " id="">
+              <div class="lg:bg-[#353b79] lg:h-[30rem] lg:w-[32rem] rounded" id="">
                 
                  
                 <div class="mx-5 mt-5" >
-                 <div className='bg-[#261b66] h-5 w-[46rem] ml-4'></div>
+                 <div className='bg-[#261b66] h-5 w-[28rem] ml-3'></div>
                 <div id='scroll2'>
                  <div className='mt-5 px-2 space-x-5 flex flex-auto'>
                   <img src={sonic} alt=""  class="lg:h-[12rem] lg:w-[25rem] "/>
@@ -76,26 +76,26 @@ function Shuva() {
    {/* avengesr */}
     <div className='group relative'>
     <div>
-    <img src={marvel} className=' h-48 w-full object-fill rounded-lg  '/>
+    <img src={marvel} className=' h-52 w-full object-fill rounded-lg  '/>
     </div>
     <div
             class="absolute top-0 left-0 w-full h-0  items-center bg-[#d84642] opacity-0 group-hover:h-full group-hover:opacity-80 duration-500">
 
-            <h1 class="text-lg text-white font-sans p-5 ">13 Titles</h1>
-            <h2 class=" text-white text-2xl font-semibold py-20 pl-5">Marvel Movies</h2>
+            <h1 class="text-lg text-white font-sans p-5 ">16 Titles</h1>
+            <h2 class=" text-white text-2xl font-semibold py-20 pl-5">Marvel Universe</h2>
         </div>
     </div>
 
     {/* christmas */}
     <div className='group relative'>
     <div>
-    <img src={christmas} className=' h-48 w-full object-fill rounded-lg '/>
+    <img src={christmas} className=' h-52 w-full object-fill rounded-lg '/>
     </div>
     <div
             class="absolute top-0 left-0 w-full h-0  items-center bg-[#74bbd8] opacity-0 group-hover:h-full group-hover:opacity-80 duration-500">
 
-            <h1 class="text-lg text-white font-sans p-5 ">13 Titles</h1>
-            <h2 class=" text-white text-2xl font-semibold py-20 pl-5">Marvel Movies</h2>
+            <h1 class="text-lg text-white font-sans p-5 ">24 Titles</h1>
+            <h2 class=" text-white text-2xl font-semibold py-20 pl-5">Christmas Movies</h2>
         </div>
     </div>
      
@@ -107,8 +107,8 @@ function Shuva() {
     <div
             class="absolute top-0 left-0 w-full h-full items-center bg-[#28594f] opacity-0 group-hover:h-full group-hover:opacity-80 duration-500">
 
-            <h1 class="text-lg text-white font-sans p-5 ">13 Titles</h1>
-            <h2 class=" text-white text-2xl font-semibold py-24 pl-5">Marvel Movies</h2>
+            <h1 class="text-lg text-white font-sans p-5 ">6 Titles</h1>
+            <h2 class=" text-white text-2xl font-semibold py-24 pl-5">Tales of Middle-Earth</h2>
         </div>
     </div>
     
@@ -128,7 +128,7 @@ function Shuva() {
     <b>Create and share playlists</b>
     </div>
     <div>
-      <p class="text-blue-400 py-4 w-9/12">Minnow is built around community, and we want you to help us grow it.Browse playlists built by friends,critics and brands you trust for recommendations</p>
+      <p class="text-[#b0aae0] py-4 w-9/12">Minnow is built around community, and we want you to help us grow it.Browse playlists built by friends,critics and brands you trust for recommendations</p>
   </div>
   <div class="pr-20">
       <div class="border-b-2 border-blue-900 pb-2 pt-10">
@@ -137,10 +137,10 @@ function Shuva() {
       <div class="pt-2"><button class="bg-cyan-500 px-2 py-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10"><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg></button><b class="text-white pl-4">Share playlists with friends</b></div>
   </div>
     <div>
-      <p class="text-blue-400 py-4 w-9/12 font-thin text-xs pt-10">Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK, Ireland, India, Brazil, Mexico and Italy</p>
+      <p class="text-[#b0aae0] py-4 w-9/12 font-thin text-xs pt-10">Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK, Ireland, India, Brazil, Mexico and Italy</p>
     </div></div>
 </div>
-<div className='pt-80'>
+<div className='pt-72'>
 
 </div>
 <div class="flex justify-around ">
@@ -152,7 +152,7 @@ function Shuva() {
       <b>Universal search engine</b>
       </div>
       <div>
-          <p class="text-blue-400 py-4 w-9/12">Easy way to find out where your favourite movies and shows are streaming currently or if you need to rent or buy it</p>
+          <p class="text-[#b0aae0] py-4 w-9/12">Easy way to find out where your favourite movies and shows are streaming currently or if you need to rent or buy it</p>
       </div>
       <div class="pr-96">
           <div class="border-b-2 border-blue-900 pb-2 pt-10">
@@ -161,7 +161,7 @@ function Shuva() {
           <div class="pt-2"><button class="bg-cyan-500 px-2 py-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10"><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg></button><b class="text-white pl-4">Browse a streaming service before you subscribe</b></div>
       </div>
         <div>
-          <p class="text-blue-400 py-4 w-9/12 font-thin text-xs pt-10">Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK, Ireland, India, Brazil, Mexico and Italy</p>
+          <p class="text-[#b0aae0] py-4 w-9/12 font-thin text-xs pt-10">Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK, Ireland, India, Brazil, Mexico and Italy</p>
         </div></div>
         <div>
          <div class="flex w-96 h-10 rounded bg-slate-800 border-2 border-cyan-400">
