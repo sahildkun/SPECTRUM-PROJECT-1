@@ -73,62 +73,32 @@ function Shuva() {
   <div class="grid grid-cols-2 gap-96 pl-20 ">
 
 <div class="grid grid-cols-1 gap-3 ">
-   {/* avengesr */}
-    <div className='group relative'>
-    <div>
-    <img src={marvel} className=' lg:h-52 lg:w-[100rem] object-fill rounded-lg  '/>
-    </div>
-    <div
-            class="absolute top-0 left-0 w-[33rem] h-0  items-center bg-[#d84642] opacity-0 group-hover:h-full group-hover:opacity-80 duration-500">
 
-            <h1 class="text-lg text-white font-sans p-5 ">16 Titles</h1>
-            <h2 class=" text-white text-2xl font-semibold py-20 pl-5">Marvel Universe</h2>
-        </div>
+  <div class="bg-gradient-to-b from-red-500 to-transparent rounded-lg shadow-xl">
+    <div class="pt-10 pl-10 text-xl text-white">16 titles</div>
+     <div class="pt-20 pb-10 text-3xl text-white font-medium pl-10">Marvel Universe</div>
     </div>
 
-    {/* christmas */}
-    <div className='group relative'>
-    <div>
-    <img src={christmas} className=' lg:h-52 lg:w-[100rem] object-fill rounded-lg '/>
-    </div>
-    <div
-            class="absolute top-0 left-0 w-[33rem] h-0  items-center bg-[#74bbd8] opacity-0 group-hover:h-full group-hover:opacity-80 duration-500">
+  <div class="bg-gradient-to-b from-blue-400 to-transparent rounded-lg shadow-xl ">
+    <div class="pt-10 pl-10 text-xl text-white">24 titles</div>
+    <div class="pt-20 pb-10 text-3xl text-white font-medium pl-10">Christmas Movies</div>
+  </div>
 
-            <h1 class="text-lg text-white font-sans p-5 ">24 Titles</h1>
-            <h2 class=" text-white text-2xl font-semibold py-20 pl-5">Christmas Movies</h2>
-        </div>
-    </div>
-     
-    {/* hulk monstaer */}
-    <div className='group relative'>
-    <div>
-    <img src={tale} className=' lg:h-[14rem] lg:w-[100rem] object-fill rounded-lg '/>
-    </div>
-    <div
-            class="absolute top-0 left-0 lg:w-[33rem]   h-full items-center bg-[#28594f] opacity-0 group-hover:h-full group-hover:opacity-80 duration-500">
-
-            <h1 class="text-lg text-white font-sans p-5 ">6 Titles</h1>
-            <h2 class=" text-white text-2xl font-semibold py-24 pl-5">Tales of Middle-Earth</h2>
-        </div>
-    </div>
-    
-   
-
-  
-
-   
+  <div class="bg-gradient-to-b from-green-500 to-transparent rounded-lg shadow-xl ">
+    <div class="pt-10 pl-10 text-xl text-white">6 titles</div>
+    <div class="pt-20 pb-10 text-3xl text-white font-medium pl-10">Tales of Middle-Earth</div>
+  </div>
 
 </div>
 <div class="pr-12"> 
 <div class="buttons">
-  <button class="bg-purple-700 px-5 py-5 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>
-  </button>
+  <button class="bg-purple-700 px-5 py-5 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></button>
   </div>
   <div class="text-4xl text-white py-10 pr-16">
     <b>Create and share playlists</b>
     </div>
     <div>
-      <p class="text-[#b0aae0] py-4 w-9/12">Minnow is built around community, and we want you to help us grow it.Browse playlists built by friends,critics and brands you trust for recommendations</p>
+      <p class="text-blue-400 py-4 w-9/12">Minnow is built around community, and we want you to help us grow it.Browse playlists built by friends,critics and brands you trust for recommendations</p>
   </div>
   <div class="pr-20">
       <div class="border-b-2 border-blue-900 pb-2 pt-10">
@@ -137,7 +107,7 @@ function Shuva() {
       <div class="pt-2"><button class="bg-cyan-500 px-2 py-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10"><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg></button><b class="text-white pl-4">Share playlists with friends</b></div>
   </div>
     <div>
-      <p class="text-[#b0aae0] py-4 w-9/12 font-thin text-xs pt-10">Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK, Ireland, India, Brazil, Mexico and Italy</p>
+      <p class="text-blue-400 py-4 w-9/12 font-thin text-xs pt-10">Minnow aggregates all major streaming service content from publically available sources in the US, Canada, UK, Ireland, India, Brazil, Mexico and Italy</p>
     </div></div>
 </div>
 <div className='pt-72'>
